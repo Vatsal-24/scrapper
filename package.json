@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "Scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
